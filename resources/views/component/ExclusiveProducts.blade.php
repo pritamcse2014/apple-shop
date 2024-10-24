@@ -60,7 +60,7 @@
 </div>
 
 <script>
-    Popular();
+    // Popular();
     async function Popular() {
         let res = await axios.get('/listProductByRemark/popular');
         $('#popularItem').empty();
@@ -96,7 +96,7 @@
         });
     }
 
-    New();
+    // New();
     async function New() {
         let res = await axios.get('/listProductByRemark/new');
         $('#newItem').empty();
@@ -132,7 +132,7 @@
         });
     }
 
-    Top();
+    // Top();
     async function Top() {
         let res = await axios.get('/listProductByRemark/top');
         $('#topItem').empty();
@@ -168,7 +168,7 @@
         });
     }
 
-    Special();
+    // Special();
     async function Special() {
         let res = await axios.get('/listProductByRemark/special');
         $('#specialItem').empty();
@@ -204,7 +204,7 @@
         });
     }
 
-    Trending();
+    // Trending();
     async function Trending() {
         let res = await axios.get('/listProductByRemark/trending');
         $('#trendingItem').empty();

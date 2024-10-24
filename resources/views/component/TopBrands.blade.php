@@ -15,7 +15,7 @@
 </div>
 
 <script>
-    TopBrands();
+    // TopBrands();
     async function TopBrands() {
         let res = await axios.get('/brandList');
         $('#topBrandItem').empty();

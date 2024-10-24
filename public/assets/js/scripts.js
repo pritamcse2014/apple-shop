@@ -14,11 +14,11 @@ PAGE JS
 	/*===================================*
 	01. LOADING JS
 	/*===================================*/
-	$(window).on('load', function() {
-		setTimeout(function () {
-			$(".preloader").delay(700).fadeOut(700).addClass('loaded');
-		}, 800);
-	});
+	// $(window).on('load', function() {
+	// 	setTimeout(function () {
+	// 		$(".preloader").delay(100).fadeOut(100).addClass('loaded');
+	// 	}, 100);
+	// });
 
 	/*===================================*
 	02. BACKGROUND IMAGE JS

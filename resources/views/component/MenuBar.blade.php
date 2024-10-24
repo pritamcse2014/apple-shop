@@ -63,7 +63,7 @@
 <!-- END HEADER -->
 
 <script>
-    Category();
+    // Category();
     async function Category() {
         let res = await axios.get('/categoryList');
         $('#categoryItem').empty();
